@@ -31,18 +31,6 @@ install.packages("library_name")
 
 ## Directory Structure
 
-```plaintext
-- code/
-    - step1_granger_analysis.R
-    - step2_post_processing.R
-    - step3_final_processing.R
-- data/
-    - Borodin
-    - Brahms
-```
-
-## Directory Structure
-
 - `/code`: This folder contains the three script files for each step of the analysis.
 - `/data`: This is where our data resides. It should contain a folder for each dataset (e.g., `Borodin`, `Brahms` etc.) with the necessary CSV files. Each folder contains the data for each piece performed. Within each csv file (for eg. BorodinPart1_File1_c1_c2.csv) the position time series of each performer has been placed under the columns M1 and M2 respectively. The c1 and c2 represents the arragagement of musician 1 under column 1, and musician 2 under column.
 - `/selected_phrases`: This directory contains a file that lists the selected phrases along with their corresponding mapped melody instruments.
