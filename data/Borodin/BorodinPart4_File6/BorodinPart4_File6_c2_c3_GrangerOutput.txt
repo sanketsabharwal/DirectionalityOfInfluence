@@ -1,0 +1,2 @@
+data_file,Texture,F_M1_M2,p_M1_M2,F_M2_M1,p_M2_M1,M1 stationarity p,M2 stationarity p
+BorodinPart4_File6_c2_c3,H,1.43171572345559,0.0657501030663482,1.20533164571955,0.210795606220058,0.01,0.01
