@@ -60,10 +60,6 @@ install.packages("library_name")
 4. Execute the script. This will aggregate the data and produce a final CSV file named `Final_[DatasetName]_Results_GC.csv` (e.g., `Final_Borodin_Results_GC.csv`).
 5. Open the final CSV file and manually map the melody instrument to each file as the last column.
 
-## Omega Ensemble Granger Causality Analysis
-
-This section provides steps to execute the script `final_granger_analysis_omega_glmer.r` which performs an analysis on the Omega Ensemble Granger Causality data. Before executing this script, ensure that the CSV files located in the `example_results` folder have been updated according to the instructions in the "Aggregation and Formatting" section.
-
 
 ## Omega Ensemble Granger Causality Analysis
 
@@ -74,9 +70,9 @@ This section provides steps to execute the script `final_granger_analysis_omega_
 1. Ensure that R is running and open the script file `final_granger_analysis_omega_glmer.r` located in the `code` folder.
 2. Update the following lines to point to the correct file paths on your machine:
    
-   - data_brahms <- data.frame(read_csv('C:/San/Projects/DirectionalityOfInfluence/example_results/Final_Brahms_Results_GC.csv'))
-   - data_borodin <- data.frame(read_csv('C:/San/Projects/DirectionalityOfInfluence/example_results/Final_Borodin_Results_GC.csv'))
-   - Change the file paths `'C:/San/Projects/DirectionalityOfInfluence/example_results/Final_Brahms_Results_GC.csv'` and `'C:/San/Projects/DirectionalityOfInfluence/example_results/Final_Borodin_Results_GC.csv'` to the actual paths where the CSV files are located on your machine.
+   - data_brahms <- data.frame(read_csv('C:/..<enter your folder>../DirectionalityOfInfluence/example_results/Final_Brahms_Results_GC.csv'))
+   - data_borodin <- data.frame(read_csv('C:/..<enter your folder>../DirectionalityOfInfluence/example_results/Final_Borodin_Results_GC.csv'))
+   - Change the file paths `C:/..<enter your folder>../DirectionalityOfInfluence/example_results/Final_Brahms_Results_GC.csv'` and `C:/..<enter your folder>../DirectionalityOfInfluence/example_results/Final_Borodin_Results_GC.csv'` to the actual paths where the CSV files are located on your machine.
 3. Once the file paths have been updated, execute the script. This script will run the necessary statistical analysis and generate the corresponding plots as specified in the script.
 
 ### Result Analysis:
