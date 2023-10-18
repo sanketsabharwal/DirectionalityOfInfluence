@@ -1,0 +1,26 @@
+
+LMER Summary Statistics - Proportion Significant
+=====================================================
+                              Dependent variable:    
+                          ---------------------------
+                                     p_sig           
+-----------------------------------------------------
+leadershipMixed                    -0.292***         
+                                    (0.085)          
+                                                     
+leadershipOther_to_Melody          -0.133**          
+                                    (0.051)          
+                                                     
+leadershipOther_to_Other            -0.019           
+                                    (0.051)          
+                                                     
+Constant                           0.430***          
+                                    (0.080)          
+                                                     
+-----------------------------------------------------
+Observations                          88             
+Log Likelihood                      -1.064           
+Akaike Inf. Crit.                   18.130           
+Bayesian Inf. Crit.                 37.950           
+=====================================================
+Note:                     *p<0.1; **p<0.05; ***p<0.01

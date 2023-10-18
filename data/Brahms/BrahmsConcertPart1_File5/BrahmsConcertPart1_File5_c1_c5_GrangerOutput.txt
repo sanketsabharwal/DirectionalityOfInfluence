@@ -1,2 +1,0 @@
-data_file,Texture,F_M1_M2,p_M1_M2,F_M2_M1,p_M2_M1,M1 stationarity p,M2 stationarity p
-BrahmsConcertPart1_File5_c1_c5,P,1.51070650813491,0.0431496490300992,1.77503472443034,0.00796212309599294,0.01,0.01

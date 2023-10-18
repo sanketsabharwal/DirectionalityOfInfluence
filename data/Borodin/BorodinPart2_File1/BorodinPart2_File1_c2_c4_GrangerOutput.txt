@@ -1,2 +1,0 @@
-data_file,Texture,F_M1_M2,p_M1_M2,F_M2_M1,p_M2_M1,M1 stationarity p,M2 stationarity p
-BorodinPart2_File1_c2_c4,P,1.45611936976729,0.061429761202758,0.826810780368662,0.729250265303925,0.01,0.01

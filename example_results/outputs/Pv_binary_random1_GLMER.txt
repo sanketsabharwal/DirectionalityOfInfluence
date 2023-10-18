@@ -1,0 +1,30 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: p_sig ~ 1 + (1 | direction/pair) + (1 | piece/part/phrase)
+   Data: dataPv
+Control: glmerControl(optimizer = "bobyqa")
+
+     AIC      BIC   logLik deviance df.resid 
+   708.1    735.6   -348.1    696.1      714 
+
+Scaled residuals: 
+   Min     1Q Median     3Q    Max 
+-1.838 -0.456 -0.289  0.559  3.837 
+
+Random effects:
+ Groups              Name        Variance Std.Dev.
+ phrase:(part:piece) (Intercept) 2.3459   1.532   
+ pair:direction      (Intercept) 0.0723   0.269   
+ part:piece          (Intercept) 0.4774   0.691   
+ piece               (Intercept) 0.1003   0.317   
+ direction           (Intercept) 0.0000   0.000   
+Number of obs: 720, groups:  phrase:(part:piece), 44; pair:direction, 20; part:piece, 7; piece, 2; direction, 2
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   -1.598      0.461   -3.46  0.00053 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+

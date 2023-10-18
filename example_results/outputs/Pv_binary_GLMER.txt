@@ -1,0 +1,35 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: p_sig ~ 1 + texture + (1 | direction/pair) + (1 | piece/part/phrase)
+   Data: dataPv
+Control: glmerControl(optimizer = "bobyqa")
+
+     AIC      BIC   logLik deviance df.resid 
+   699.3    731.3   -342.6    685.3      713 
+
+Scaled residuals: 
+   Min     1Q Median     3Q    Max 
+-1.870 -0.446 -0.290  0.549  4.066 
+
+Random effects:
+ Groups              Name        Variance Std.Dev.
+ phrase:(part:piece) (Intercept) 1.667    1.291   
+ pair:direction      (Intercept) 0.073    0.270   
+ part:piece          (Intercept) 0.214    0.463   
+ piece               (Intercept) 0.245    0.495   
+ direction           (Intercept) 0.000    0.000   
+Number of obs: 720, groups:  phrase:(part:piece), 44; pair:direction, 20; part:piece, 7; piece, 2; direction, 2
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   -0.735      0.520   -1.41  0.15779    
+textureP      -1.666      0.474   -3.52  0.00044 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+         (Intr)
+textureP -0.412
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+

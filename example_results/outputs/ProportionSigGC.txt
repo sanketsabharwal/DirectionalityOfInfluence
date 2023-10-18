@@ -1,0 +1,34 @@
+Linear mixed model fit by maximum likelihood . t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: p_sig ~ 1 + texture + (1 | direction) + (1 | piece/part/phrase)
+   Data: data_p_prop
+Control: lmerControl(optimizer = "bobyqa")
+
+     AIC      BIC   logLik deviance df.resid 
+   -20.4     -3.1     17.2    -34.4       81 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.8940 -0.4121 -0.0602  0.4451  2.0698 
+
+Random effects:
+ Groups              Name        Variance Std.Dev.
+ phrase:(part:piece) (Intercept) 0.04440  0.2107  
+ part:piece          (Intercept) 0.00399  0.0632  
+ piece               (Intercept) 0.00372  0.0610  
+ direction           (Intercept) 0.00000  0.0000  
+ Residual                        0.01393  0.1180  
+Number of obs: 88, groups:  phrase:(part:piece), 44; part:piece, 7; piece, 2; direction, 2
+
+Fixed effects:
+            Estimate Std. Error      df t value Pr(>|t|)   
+(Intercept)   0.3855     0.0709  3.3285    5.44   0.0093 **
+textureP     -0.2476     0.0700 41.8188   -3.54   0.0010 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+         (Intr)
+textureP -0.504
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+

@@ -1,0 +1,7 @@
+ contrast       estimate    SE  df asymp.LCL asymp.UCL
+ c(1, -3, 1, 1)    4.796 1.449 Inf    1.9565     7.635
+ c(1, 0, 1, -2)   -0.575 0.556 Inf   -1.6646     0.515
+ c(1, 0, -1, 0)    0.824 0.418 Inf    0.0049     1.642
+
+Results are given on the log odds ratio (not the response) scale. 
+Confidence level used: 0.95 

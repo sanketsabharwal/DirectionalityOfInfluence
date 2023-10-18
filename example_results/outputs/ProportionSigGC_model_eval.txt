@@ -1,0 +1,9 @@
+Data: data_p_prop
+Models:
+Pv_long_prop_reduced: p_sig_arcsn ~ 1 + (1 | direction) + (1 | piece/part/phrase)
+Pv_long_prop: p_sig ~ 1 + texture + (1 | direction) + (1 | piece/part/phrase)
+                     npar   AIC  BIC logLik deviance Chisq Df          Pr(>Chisq)    
+Pv_long_prop_reduced    6  68.3 83.1  -28.1     56.3                                 
+Pv_long_prop            7 -20.4 -3.1   17.2    -34.4  90.7  1 <0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

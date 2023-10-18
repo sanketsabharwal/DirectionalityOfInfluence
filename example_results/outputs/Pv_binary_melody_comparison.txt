@@ -1,0 +1,9 @@
+Data: dataPv_melody
+Models:
+Pv_binary_melody_random1.glme: p_sig ~ 1 + (1 | direction/pair) + (1 | piece/part/phrase)
+Pv_binary_melody.glme: p_sig ~ 1 + leadership + (1 | direction/pair) + (1 | piece/part/phrase)
+                              npar AIC BIC logLik deviance Chisq Df Pr(>Chisq)   
+Pv_binary_melody_random1.glme    6 708 736   -348      696                       
+Pv_binary_melody.glme            9 698 740   -340      680  15.7  3     0.0013 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
