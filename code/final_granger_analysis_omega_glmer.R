@@ -24,11 +24,12 @@ library(stargazer)
 source("https://gist.githubusercontent.com/benmarwick/2a1bb0133ff568cbe28d/raw/fb53bd97121f7f9ce947837ef1a4c65a73bffb3f/geom_flat_violin.R")
 # source("~/Documents/R/geom_flat_violin.R") # set own path!!!
 
-# Read in csv data ---------
+# Set working directory ---------
 setwd("~/Documents/Work-MARCS/EXPERIMENTS/Omega Ensemble/Omega Ensemble Rehearsal/Analysis_2020/Sanket_analysis/Granger Causality") # set path to folder with csv-files
 
-data_brahms <- data.frame(read_csv('~/Documents/Work-MARCS/EXPERIMENTS/Omega Ensemble/Omega Ensemble Rehearsal/Analysis_2020/Sanket_analysis/Granger Causality/Final_Brahms_Results_GC.csv'))
-data_borodin <- data.frame(read_csv('~/Documents/Work-MARCS/EXPERIMENTS/Omega Ensemble/Omega Ensemble Rehearsal/Analysis_2020/Sanket_analysis/Granger Causality/Final_Borodin_Results_GC.csv'))
+# Set path to Final Brahms Results and Final Borodin Results files. Placeholder left below.
+data_brahms <- data.frame(read_csv('~/Documents/..<enter your path here>../Final_Brahms_Results_GC.csv'))
+data_borodin <- data.frame(read_csv('~/Documents/..<enter your path here>../Final_Borodin_Results_GC.csv'))
 
 ## Select 'concert' data to process
 data_brms <- data_brahms
