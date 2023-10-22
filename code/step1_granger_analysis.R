@@ -112,7 +112,7 @@ combinations <- combn(1:4, 2, simplify = FALSE)
 # combinations <- combn(1:5, 2, simplify = FALSE)
 
 # Call the function
-granger_analysis("BorodinPart4_File1", combinations)
+granger_analysis("BorodinPart1_File1", combinations)
 
 # Above is a sample example on the folder BorodinPart4_File1
 # The expected output is a .txt file named BorodinPart4_File1_GrangerOutput_All.txt inside the folder
