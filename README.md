@@ -90,4 +90,9 @@ If you encounter any issues while executing the script, ensure that:
 - The file paths are correctly specified.
 - The R environment is properly set up.
 
-In case of further issues or inquiries regarding the analysis, feel free to contact the repository maintainers or refer to the comments within the script for additional information.
+In case of further issues or inquiries regarding the analysis, feel free to contact me on sanket@sabharwal.dev or refer to the comments within the script for additional information.
+
+If you found this repo useful please cite us! :)
+```
+Sabharwal SR, Breaden M, Volpe G, Camurri A, Keller PE (2024) Leadership dynamics in musical groups: Quantifying effects of musical structure on directionality of influence in concert performance videos. PLoS ONE 19(4): e0300663. https://doi.org/10.1371/journal.pone.0300663
+```
